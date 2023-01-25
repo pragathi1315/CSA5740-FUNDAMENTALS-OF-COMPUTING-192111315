@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int i, N;
+	 printf("enter the value of the n:");
+	 scanf("%d", &N);
+	 printf("\n");
+	 for(i=0; i<=N; i++)
+	 {
+	    printf("%d\t",i*i);
+	 }
+	 
+	return 0;
+}
